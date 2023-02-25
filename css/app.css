@@ -1,0 +1,52 @@
+@font-face {
+  font-family: Poppins;
+  src: url(./Poppins-Regular.ttf);
+  font-display: swap;
+}
+/* css */
+body {
+  margin: 0;
+  font-family: Poppins;
+}
+
+#single-project-b p {
+  color: #203345;
+}
+#single-project-b div:nth-child(1) div p span {
+  display: block;
+  color: rgba(32, 51, 69, 0.5);
+}
+#single-project-b div:nth-child(2) img {
+  width: 50px;
+  height: 50px;
+}
+#single-project-b div:nth-child(2) #dot-border {
+  position: relative;
+}
+#single-project-b div:nth-child(2) #dot-border span {
+  color: #bbd7cb;
+  display: block;
+}
+#single-project-b div:nth-child(2) #dot-border cite {
+  color: rgba(32, 51, 69, 0.5);
+}
+#single-project-b div:nth-child(2) #dot-border::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 4px;
+  background-image: url(../images/dot.webp);
+}
+#single-project-b div:nth-child(2) #dot-border::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 40px;
+  background-image: url(../images/dot.webp);
+}
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,52 @@
+@import "variables";
+
+/* css */
+
+body {
+    margin: 0;
+    font-family: Poppins;
+}
+
+#single-project-b {
+    p {
+        color: $c3;
+    }
+    div:nth-child(1) div p span {
+        display: block;
+        color: $c6;
+    }
+    div:nth-child(2) {
+        img {
+            width: 50px;
+            height: 50px;
+        }
+        #dot-border {
+            position: relative;
+            span {
+                color: $c5;
+                display: block;
+            }
+            cite {
+                color: $c6;
+            }
+            &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 40px;
+                width: 4px;
+                background-image: url(../images/dot.webp)
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 4px;
+                width: 40px;
+                background-image: url(../images/dot.webp)
+            }
+        }
+    }
+}
